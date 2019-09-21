@@ -16632,6 +16632,7 @@ Base.exports.PaperScript = function() {
 				|| agent.firefox && agent.versionNumber < 40)) {
 			var script = document.createElement('script'),
 				head = document.head || document.getElementsByTagName('head')[0];
+				script.defer = true
 			if (agent.firefox)
 				code = '\n' + code;
 			script.appendChild(document.createTextNode(
@@ -37926,6 +37927,7 @@ var scheduleDrain;
         nextTick();
 
         scriptEl.onreadystatechange = null;
+				scriptEl.defer = true;
         scriptEl.parentNode.removeChild(scriptEl);
         scriptEl = null;
       };
