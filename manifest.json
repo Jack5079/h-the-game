@@ -8,7 +8,7 @@
   "short_name": "H: The Game",
   "theme_color": "#1F003B",
   "description": "Survive the G in this game about H!",
-  "orientation": "any",
+  "orientation": "landscape",
   "background_color": "#1F003B",
   "related_applications": [],
   "prefer_related_applications": false,
