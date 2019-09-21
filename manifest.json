@@ -1,0 +1,22 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "H: The Game",
+  "scope": "/h-the-game/",
+  "display": "standalone",
+  "start_url": "https://jack5079.tk/h-the-game/",
+  "short_name": "H: The Game",
+  "theme_color": "white",
+  "description": "Survive the G in this game about H!",
+  "orientation": "any",
+  "background_color": "transparent",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
