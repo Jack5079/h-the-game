@@ -11,6 +11,9 @@
     vertical-align: center;
 }
 
+canvas {
+    background: #1F003B !important;
+}
 .animated {
     animation-iteration-count: infinite;
 }
