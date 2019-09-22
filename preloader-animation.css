@@ -34,7 +34,7 @@ progress {
     top: -1%;
     height: 4%;
     border: 0;
-    background: black;
+    background: transparent;
 }
 
 #loading-bar {
